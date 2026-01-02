@@ -1,0 +1,22 @@
+{
+  "description": "Ctrl+Shift+O → Option+Command+Right",
+  "enabled": false,
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "o",
+        "modifiers": {
+          "mandatory": ["control", "shift"],
+          "optional": ["any"]
+        }
+      },
+      "to": [
+        {
+          "key_code": "right_arrow",
+          "modifiers": ["option", "command"]
+        }
+      ],
+      "type": "basic"
+    }
+  ]
+}

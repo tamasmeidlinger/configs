@@ -1,0 +1,47 @@
+{
+  "workbench.statusBar.visible": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "editor.fontFamily": "Hack Nerd Font, JetBrainsMono Nerd Font",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "editor.fontWeight": "310",
+  "editor.fontSize": 13,
+  "editor.lineNumbers": "relative",
+
+  "vim.leader": " ",
+
+  "vim.easymotion": true,
+
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["s"],
+      "after": ["<leader>", "<leader>", "f"]
+    },
+    {
+      "before": ["S"],
+      "after": ["<leader>", "<leader>", "F"]
+    },
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "b", "d"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    }
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "extensions.ignoreRecommendations": true,
+  "explorer.confirmDelete": false
+}
