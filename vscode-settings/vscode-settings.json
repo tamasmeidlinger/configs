@@ -70,6 +70,7 @@
     "tab.activeBackground": "#131313",
     "tab.inactiveBackground": "#1a1a1a",
     "tab.border": "#131313",
+    "tab.activeBorderTop": "#131313",
     "titleBar.activeBackground": "#131313",
     "titleBar.inactiveBackground": "#131313",
     "tab.activeForeground": "#ededed"
